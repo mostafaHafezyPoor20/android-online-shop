@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        app:lottie_rawRes="@raw/login_require_animation"
+        android:layout_centerInParent="true"
+        app:lottie_autoPlay="true"
+        android:layout_marginTop="20sp"
+        android:id="@+id/animation"
+        app:lottie_loop="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/animation"
+        android:text="شما تا کنون وارد حساب کاربری خود نشده اید!"
+        android:textAlignment="center"
+        android:fontFamily="@font/vazirmatn_bold"
+        android:layout_marginTop="12sp"
+        android:textColor="@color/black"
+        android:id="@+id/textTitle"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textTitle"
+        android:layout_marginRight="12sp"
+        android:layout_marginLeft="12sp"
+        app:backgroundTint="@color/primary"
+        app:cornerRadius="12sp"
+        android:text="ورود یا ثبت نام"
+        android:fontFamily="@font/vazirmatn_bold"
+        android:id="@+id/btnLoginOrRegister"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

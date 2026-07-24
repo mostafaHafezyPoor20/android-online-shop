@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        app:lottie_rawRes="@raw/login_require_animation"
+        app:lottie_autoPlay="true"
+        android:id="@+id/animation"
+        app:lottie_loop="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/animation"
+        android:text="برای افزودن به سبد خرید ابتدا وارد حساب  کاربری خود شوید"
+        android:textAlignment="center"
+        android:layout_marginTop="12sp"
+        android:fontFamily="@font/vazirmatn_bold"
+        android:textColor="@color/black"
+        android:id="@+id/textTitle"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textTitle"
+        android:fontFamily="@font/vazirmatn_bold"
+        android:layout_marginRight="12sp"
+        android:layout_marginLeft="12sp"
+        app:backgroundTint="@color/primary"
+        app:cornerRadius="12sp"
+        android:text="ورود یا ثبت نام"
+        android:id="@+id/btnLoginOrRegister"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

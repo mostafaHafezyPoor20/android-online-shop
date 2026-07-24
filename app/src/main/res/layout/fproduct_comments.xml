@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/list"/>
+<com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+   android:layout_centerHorizontal="true"
+    android:layout_margin="12sp"
+    app:backgroundTint="@color/black"
+    android:textColor="@color/white"
+    android:id="@+id/fabAddComment"
+    app:iconTint="@color/white"
+    app:cornerRadius="12sp"
+    app:iconGravity="end"
+    android:visibility="visible"
+    android:text="نوشتن نظر"
+    android:fontFamily="@font/vazirmatn_bold"
+    app:icon="@drawable/add_comment_24px"/>
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<com.airbnb.lottie.LottieAnimationView
+    android:layout_width="match_parent"
+    android:layout_height="200sp"
+    app:lottie_rawRes="@raw/animation_notification"
+    app:lottie_autoPlay="true"
+    app:lottie_loop="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:fontFamily="@font/vazirmatn_bold"
+        android:text="اجازه ارسال اعلان ها"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:fontFamily="@font/vazirmatn_light"
+        android:padding="4sp"
+        android:textSize="15sp"
+        android:text="می‌خواییم وقتی محصول جدید، تخفیف یا پاسخ به سوالت اومد، سریع بهت خبر بدیم. اجازه می‌دی اعلان‌ها فعال باشه؟"
+        android:layout_marginTop="12sp"
+        android:textColor="@color/black"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12sp"
+        android:layout_marginLeft="12sp"
+        app:backgroundTint="@color/primary"
+        android:layout_marginTop="12sp"
+        android:textColor="@color/white"
+        android:id="@+id/enableNotification"
+        android:fontFamily="@font/vazirmatn_bold"
+        android:text="باشه اطلاع بده"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12sp"
+        android:layout_marginLeft="12sp"
+        app:backgroundTint="@color/red"
+        android:layout_marginTop="4sp"
+        android:textColor="@color/white"
+        android:id="@+id/btnDismiss"
+        android:fontFamily="@font/vazirmatn_light"
+        android:text="نه، بعداً تصمیم می‌گیرم"/>
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+    android:text="سایز های مورد نظر خود را انتخاب کنید"
+    android:textStyle="bold"
+    android:textColor="@color/black"
+    android:textSize="20sp"
+    android:fontFamily="@font/vazirmatn_bold"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/primary"
+        android:layout_marginRight="12sp"
+        android:layout_marginLeft="12sp"
+        android:textColor="@color/white"
+        android:text="افزودن به سبد خرید"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:layout_marginTop="4sp"
+        android:id="@+id/addToCart"
+        app:cornerRadius="12sp"
+        android:fontFamily="@font/vazirmatn_bold"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/white"
+        android:layout_marginRight="12sp"
+        android:layout_marginLeft="12sp"
+        android:id="@+id/btnDismiss"
+        android:textColor="@color/red"
+        android:text="بازگشت"
+        android:textStyle="bold"
+        android:layout_marginTop="4sp"
+        app:cornerRadius="12sp"
+        app:strokeColor="@color/red"
+        app:strokeWidth="1sp"
+        android:fontFamily="@font/vazirmatn_light"/>
+</LinearLayout>

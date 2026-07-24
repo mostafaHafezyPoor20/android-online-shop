@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12sp">
+<com.google.android.material.card.MaterialCardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:strokeWidth="1sp"
+    app:strokeColor="@color/gray"
+    app:cardCornerRadius="12sp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:scaleType="centerCrop"
+            android:layout_alignParentRight="true"
+            android:id="@+id/imgProduct"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/imgProduct"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/vazirmatn_bold"
+            android:layout_marginTop="24sp"
+            android:id="@+id/product_name"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/imgProduct"
+            android:layout_centerInParent="true"
+            android:textColor="@color/red"
+            android:textAlignment="center"
+            android:fontFamily="@font/vazirmatn_light"
+            android:id="@+id/product_price"
+            android:paddingTop="24sp"/>
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>
+</RelativeLayout>

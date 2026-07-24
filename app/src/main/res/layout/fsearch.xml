@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<com.google.android.material.card.MaterialCardView
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:id="@+id/toolbar"
+    app:cardElevation="12sp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/mic_24px"
+            android:layout_alignParentRight="true"
+            android:id="@+id/imgMic"
+            android:layout_marginRight="8sp"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/imgMic"
+            app:boxBackgroundColor="@null"
+            android:layout_toRightOf="@id/imgBack"
+            app:boxBackgroundMode="none"
+            app:hintEnabled="false"
+            android:gravity="center">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:maxLines="1"
+                android:inputType="textShortMessage"
+                android:id="@+id/edtSearch"
+                android:fontFamily="@font/vazirmatn_medium"
+                android:hint="جستجو در  شیک شاپ"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/arrow_back_24px"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/imgBack"
+            android:layout_marginLeft="8sp"/>
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:id="@+id/list"/>
+</RelativeLayout>

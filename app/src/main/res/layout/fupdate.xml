@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/title"
+        app:lottie_rawRes="@raw/animation_update"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:textAlignment="center"
+    android:id="@+id/title"
+    android:text="برای استفاده از امکانات جدید شیک شاپ ابتدا آن را بروزرسانی کنید"
+    android:textColor="@color/black"
+    android:fontFamily="@font/vazirmatn_bold"
+    android:textStyle="bold"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginRight="12sp"
+        android:layout_marginLeft="12sp"
+        app:backgroundTint="@color/primary"
+        android:fontFamily="@font/vazirmatn_bold"
+        android:text="بروزرسانی"
+        android:id="@+id/btnUpdate"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:cornerRadius="12sp"/>
+</RelativeLayout>

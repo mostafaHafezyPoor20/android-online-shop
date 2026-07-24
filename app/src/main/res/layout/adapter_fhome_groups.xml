@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="rtl"
+
+    android:layout_marginTop="16sp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_marginLeft="12sp"
+    android:fontFamily="@font/vazirmatn_bold"
+    android:layout_marginRight="12sp"
+    android:textColor="@color/black"
+    android:id="@+id/group_name"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow_back_ios_24px"
+        android:layout_alignParentLeft="true"
+        android:rotation="180"
+        android:paddingTop="4sp"
+        android:paddingBottom="4sp"
+        android:layout_marginLeft="6sp"
+        android:layout_alignBottom="@id/textShowAll"
+        android:layout_alignTop="@id/textShowAll"
+        android:layout_marginRight="12sp"
+        app:tint="@color/black"
+        android:id="@+id/imgShowAll"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/vazirmatn_light"
+        android:textColor="@color/black"
+        android:id="@+id/textShowAll"
+        android:layout_toRightOf="@id/imgShowAll"
+        android:layout_alignTop="@id/group_name"
+        android:layout_alignBottom="@id/group_name"
+        android:text="نمایش همه"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list"
+        android:layout_below="@id/imgShowAll"
+        android:layout_marginTop="4sp" />
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<com.airbnb.lottie.LottieAnimationView
+    android:layout_width="match_parent"
+    android:layout_height="250sp"
+    app:lottie_rawRes="@raw/upset_animation"
+    app:lottie_autoPlay="true"
+    app:lottie_loop="true"
+    android:id="@+id/animation"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="نام کاربری یا کلمه عبور اشتباه است"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/vazirmatn_bold"
+        android:layout_marginTop="12sp"
+        android:textColor="@color/black"
+        android:id="@+id/textErrorDialog"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12sp"
+        android:layout_marginLeft="12sp"
+        app:backgroundTint="@color/red"
+        android:text="تلاش دوباره"
+        android:fontFamily="@font/vazirmatn_bold"
+        android:layout_marginTop="12sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:cornerRadius="12sp"
+        android:id="@+id/btnTryAgain"/>
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<androidx.viewpager.widget.ViewPager
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/viewPager"
+    android:layout_above="@id/btnLetsGo"/>
+<com.google.android.material.tabs.TabLayout
+    android:layout_width="match_parent"
+    android:layout_height="4sp"
+    android:layout_marginBottom="12sp"
+    app:tabPadding="12sp"
+    android:layout_alignParentBottom="true"
+    app:tabIndicatorHeight="0sp"
+    android:visibility="invisible"
+    app:tabGravity="fill"
+    android:id="@+id/tabIndicator"
+    app:tabBackground="@drawable/bg_tab_indicator"
+    app:tabMode="fixed"/>
+    <ImageView
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+       android:src="@drawable/arow"
+        android:layout_marginBottom="25sp"
+        android:id="@+id/previus"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"/>
+    <ImageView
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:src="@drawable/arow"
+        android:layout_marginBottom="25sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:rotation="180"
+        android:id="@+id/next"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/next"
+        android:layout_marginBottom="12sp"
+        android:id="@+id/btnLetsGo"
+        android:layout_centerInParent="true"
+        android:text="بزن بریم"
+        android:fontFamily="@font/vazirmatn_bold"
+        app:backgroundTint="@color/primary"
+        android:paddingLeft="100sp"
+        android:paddingRight="100sp"
+        app:cornerRadius="12sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+    </RelativeLayout>

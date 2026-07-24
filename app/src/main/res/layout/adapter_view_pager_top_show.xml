@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300sp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <eightbitlab.com.blurview.BlurTarget
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/blurTarget">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/img"
+            android:scaleType="centerCrop"/>
+    </eightbitlab.com.blurview.BlurTarget>
+    <eightbitlab.com.blurview.BlurView
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:id="@+id/blurView"
+        android:layout_alignParentBottom="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/productName"
+                android:fontFamily="@font/vazirmatn_bold"
+                android:layout_alignParentTop="true"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAlignment="center"/>
+        </RelativeLayout>
+
+    </eightbitlab.com.blurview.BlurView>
+</RelativeLayout>

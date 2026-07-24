@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+<com.airbnb.lottie.LottieAnimationView
+    android:layout_width="match_parent"
+    android:layout_height="250sp"
+    app:lottie_rawRes="@raw/faild_payment_animation"
+    app:lottie_autoPlay="true"
+    android:id="@+id/animation"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="فرآیند پرداخت توسط شما متوقف شد"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/vazirmatn_bold"
+        android:textStyle="bold"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12sp"
+        android:layout_marginLeft="12sp"
+        android:layout_marginTop="12sp"
+        app:cornerRadius="12sp"
+        android:fontFamily="@font/vazirmatn_bold"
+        app:backgroundTint="@color/red"
+        android:id="@+id/btnOk"
+        android:text="متوجه شدم"
+        android:textColor="@color/white"/>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/home" android:icon="@drawable/home_24px" android:title="خانه"/>
+<item android:id="@+id/cart" android:icon="@drawable/shopping_cart_24px" android:title="سبد خرید"/>
+<item android:id="@+id/chat" android:icon="@drawable/support_agent_24px" android:title="پشتیبانی"/>
+<item android:id="@+id/account" android:icon="@drawable/person_24px" android:title="حساب کاربری"/>
+</menu>

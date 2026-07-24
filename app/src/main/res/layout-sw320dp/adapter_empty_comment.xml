@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<com.airbnb.lottie.LottieAnimationView
+    android:layout_width="match_parent"
+    android:layout_height="130sp"
+    android:layout_alignParentTop="true"
+    app:lottie_rawRes="@raw/animation_empty_comment"
+    app:lottie_autoPlay="true"
+    android:id="@+id/animation"
+    app:lottie_loop="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_below="@id/animation"
+        android:id="@+id/text"
+        android:fontFamily="@font/vazirmatn_bold"
+        android:text="این محصول منتظر اولین نظر شماست"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12sp"
+        android:layout_marginLeft="12sp"
+        app:backgroundTint="@color/white"
+        app:strokeColor="@color/gray"
+        android:fontFamily="@font/vazirmatn_light"
+        app:strokeWidth="0.5sp"
+        android:id="@+id/btnAddComment"
+        app:icon="@drawable/add_comment_24px"
+        android:layout_centerHorizontal="true"
+        app:iconTint="@color/gray"
+        app:iconGravity="end"
+        app:elevation="0sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/text"
+        android:text="نوشتن اولین نظر برای این محصول"/>
+</RelativeLayout>

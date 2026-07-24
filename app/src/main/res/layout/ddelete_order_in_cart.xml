@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:fontFamily="@font/vazirmatn_bold"
+    android:layout_marginTop="12sp"
+    android:id="@+id/title"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12sp"
+        android:layout_marginLeft="12sp"
+        android:text="بله"
+        app:backgroundTint="@color/red"
+        android:fontFamily="@font/vazirmatn_bold"
+        android:textColor="@color/white"
+        app:cornerRadius="12sp"
+        android:textStyle="bold"
+        android:id="@+id/btnDelete"
+        android:layout_marginTop="12sp"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12sp"
+        android:layout_marginLeft="12sp"
+        android:layout_marginTop="8sp"
+        app:backgroundTint="@color/white"
+        app:strokeWidth="1sp"
+        app:strokeColor="@color/gray"
+        android:fontFamily="@font/vazirmatn_light"
+        app:cornerRadius="12sp"
+        android:id="@+id/btnDismiss"
+        android:text="بازگشت"
+        android:textColor="@color/black"/>
+</LinearLayout>

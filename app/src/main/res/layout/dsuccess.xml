@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<com.airbnb.lottie.LottieAnimationView
+    android:layout_width="match_parent"
+    android:layout_height="250sp"
+    app:lottie_rawRes="@raw/success_animation"
+    app:lottie_autoPlay="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:fontFamily="@font/vazirmatn_bold"
+        android:text="اطلاعات جدید با موفقیت ذخیره شد"
+        android:textColor="@color/black"
+        android:id="@+id/textTitle"
+        android:textStyle="bold"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12sp"
+        android:layout_marginLeft="12sp"
+        app:cornerRadius="12sp"
+        app:backgroundTint="@color/primary"
+        android:textColor="@color/white"
+        android:text="متوجه شدم"
+        android:fontFamily="@font/vazirmatn_bold"
+        android:id="@+id/btnOk"/>
+</LinearLayout>
