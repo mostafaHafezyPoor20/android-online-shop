@@ -62,3 +62,27 @@ The project also integrates several Android and third-part technologies to provi
   </p>
 
  
+### Backend & API
+shik shap uses a custom Pure PHP backend with MySQL as the database.
+
+The Android application communicates with the backend through REST APIs using Retrofit 
+
+### Backend Responsibilities 
+* User registration and authentication
+* Product management and retrieval
+* Shopping cart operations
+* Order management
+* Database operations using MySQL
+* Handling communication between the Android application and the server
+
+ ### Real-Time Chat
+ The application also includes a chat feature implemented using Long Polling
+ Instead of continuouslu sending requests at short interval , the client keeps an HTTP request open while waiting for new messages . when a new message becomes available,the server returns the response and the client starts a new request.
+
+Android Client -- http Request --> PHP Backend --Wait for new message -->New message -----> Android Client -> New Long Polling Request
+
+### Communication Flow
+
+Android Application ----> Retrofit ----> REST API ----> Pure PHP ----> MySQL
+
+for the chat functionality , Long Polling is used to provide near real-time message updates between the Android application and the PHP backend
