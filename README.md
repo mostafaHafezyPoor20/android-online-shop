@@ -63,7 +63,7 @@ The project also integrates several Android and third-part technologies to provi
     <img width="200"  alt="6" src="https://github.com/user-attachments/assets/cdda884c-a79e-400d-8412-39076edcb78e" />
   </p>
     <p align="center">     
-      <img width="200"  alt="7" src="https://github.com/user-attachments/assets/7c586b11-104f-497a-97ae-f78c68765afa" />
-    <img width="200"  alt="8" src="https://github.com/user-attachments/assets/5a5b2a90-6118-4473-bde2-37ca915cb2c1" />
-   <img width="200" alt="9" src="https://github.com/user-attachments/assets/2f0fc1ec-7c01-4e01-862a-b1fbb58f45f5" />
+      <img width="200" height ="400"  alt="7" src="https://github.com/user-attachments/assets/7c586b11-104f-497a-97ae-f78c68765afa" />
+    <img width="200" height ="400"  alt="8" src="https://github.com/user-attachments/assets/5a5b2a90-6118-4473-bde2-37ca915cb2c1" />
+   <img width="200" height ="400" alt="9" src="https://github.com/user-attachments/assets/2f0fc1ec-7c01-4e01-862a-b1fbb58f45f5" />
   </p>
