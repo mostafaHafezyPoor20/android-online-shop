@@ -11,15 +11,15 @@ The project also integrates several Android and third-part technologies to provi
 
 
 ## Features 
-### User registration and authentication
-### Browse childern's clothing products 
-### Search and explore products 
-### View detailed product information 
-### Select clothing sizes
-### Add products to the shopping cart
-### Manage cart items
-### place orders
-### Communicate with the backend through REST APIs
-### Responsive and user-friendly Android interface
-### Smooth loading and visual animations
-### Firebase integration
+1. User registration and authentication
+2. Browse childern's clothing products 
+3. Search and explore products 
+4. View detailed product information 
+5. Select clothing sizes
+6. Add products to the shopping cart
+7. Manage cart items
+8. place orders
+9. Communicate with the backend through REST APIs
+10. Responsive and user-friendly Android interface
+11. Smooth loading and visual animations
+12. Firebase integration
