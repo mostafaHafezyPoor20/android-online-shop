@@ -55,12 +55,14 @@ The project also integrates several Android and third-part technologies to provi
      <img style="padding:20px" width="200" height ="400" alt="Screenshot_20260812-090755_ " src="https://github.com/user-attachments/assets/a4649373-4470-401a-9cb6-3725ba903328" />
     <img style="padding:20px" width="200" height ="400" alt="Screenshot_20260812-085949_ " src="https://github.com/user-attachments/assets/0fe31b8f-b1b0-430b-8700-d14fc96b3e55" />
     <img style="padding:20px" width="200" height ="400" alt="Screenshot_20260812-085949_ " src="https://github.com/user-attachments/assets/eec06e5c-b34a-4de2-8bde-1bf5590ba5b4" />
+
+     <img style="padding:20px" width="200" height ="400" alt="4" src="https://github.com/user-attachments/assets/053c4f9f-d082-4dea-b845-140b4a1aa00b" />
+    <img style="padding:20px" width="200" height ="400" alt="5" src="https://github.com/user-attachments/assets/e9672c94-efea-416b-a3db-2b5646ef5717" />
+    <img style="padding:20px" width="200" height ="400" alt="6" src="https://github.com/user-attachments/assets/cdda884c-a79e-400d-8412-39076edcb78e" />
   </p>
   
   <p align="center">   
-    <img style="padding:20px" width="200" height ="400" alt="4" src="https://github.com/user-attachments/assets/053c4f9f-d082-4dea-b845-140b4a1aa00b" />
-    <img style="padding:20px" width="200" height ="400" alt="5" src="https://github.com/user-attachments/assets/e9672c94-efea-416b-a3db-2b5646ef5717" />
-    <img style="padding:20px" width="200" height ="400" alt="6" src="https://github.com/user-attachments/assets/cdda884c-a79e-400d-8412-39076edcb78e" />
+   
   </p>
     <p align="center">     
       <img style="padding:20px" width="200" height ="400"  alt="7" src="https://github.com/user-attachments/assets/7c586b11-104f-497a-97ae-f78c68765afa" />
