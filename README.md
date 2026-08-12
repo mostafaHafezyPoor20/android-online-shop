@@ -23,3 +23,24 @@ The project also integrates several Android and third-part technologies to provi
 10. Responsive and user-friendly Android interface
 11. Smooth loading and visual animations
 12. Firebase integration
+
+
+## Tech Stack
+### Android 
+* Java
+* XML
+* Android SDK
+* MVVM Architecture
+
+### Networking & Backend
+* Retrofit for REST API communication
+* PHP for the backend
+* MySQL for database management
+
+### Libraries & Services 
+* Picasso for image loading
+* Lottie for animations
+* Shimmer for loading placeholders
+* BlurView for blur effects
+* CircleImageView for circular image views
+* Firebase for google Firebase services
