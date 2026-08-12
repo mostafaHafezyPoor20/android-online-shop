@@ -44,3 +44,11 @@ The project also integrates several Android and third-part technologies to provi
 * BlurView for blur effects
 * CircleImageView for circular image views
 * Firebase for google Firebase services
+
+
+  ## Screenshots
+  <p align="center">
+    <img width="1080" height="2400" alt="Screenshot_20260812-090755_ " src="https://github.com/user-attachments/assets/a4649373-4470-401a-9cb6-3725ba903328" />
+    <img width="1080" height="2400" alt="Screenshot_20260812-085949_ " src="https://github.com/user-attachments/assets/0fe31b8f-b1b0-430b-8700-d14fc96b3e55" />
+
+  </p>
