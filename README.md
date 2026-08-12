@@ -8,3 +8,18 @@ The Android application was developed using Java and XML , following the MVVM ar
 MySQL is used as the database on the server side.
 
 The project also integrates several Android and third-part technologies to provide a smoother and more modern user experience,including Retrofit , Picasso , Firebase,Lottie,Shimmer,BlurView and CircleImageView
+
+
+## Features 
+### User registration and authentication
+### Browse childern's clothing products 
+### Search and explore products 
+### View detailed product information 
+### Select clothing sizes
+### Add products to the shopping cart
+### Manage cart items
+### place orders
+### Communicate with the backend through REST APIs
+### Responsive and user-friendly Android interface
+### Smooth loading and visual animations
+### Firebase integration
