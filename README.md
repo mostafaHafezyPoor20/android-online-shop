@@ -48,15 +48,22 @@ The project also integrates several Android and third-part technologies to provi
 
   ## Screenshots
   <p align="center">
-    <img width="200" alt="Screenshot_20260812-090755_ " src="https://github.com/user-attachments/assets/a4649373-4470-401a-9cb6-3725ba903328" />
+   <img width="200"  alt="10" src="https://github.com/user-attachments/assets/189f3fbc-9b9f-4fb9-abd9-ffda21f5a326" />
+<img width="200" alt="11" src="https://github.com/user-attachments/assets/389b2912-ff8f-4d17-a390-94bfafd534cf" />
+  </p>
+  <p align="center">
+     <img width="200" alt="Screenshot_20260812-090755_ " src="https://github.com/user-attachments/assets/a4649373-4470-401a-9cb6-3725ba903328" />
     <img width="200" alt="Screenshot_20260812-085949_ " src="https://github.com/user-attachments/assets/0fe31b8f-b1b0-430b-8700-d14fc96b3e55" />
     <img width="200" alt="Screenshot_20260812-085949_ " src="https://github.com/user-attachments/assets/eec06e5c-b34a-4de2-8bde-1bf5590ba5b4" />
+  </p>
+  
+  <p align="center">   
     <img width="200" alt="4" src="https://github.com/user-attachments/assets/053c4f9f-d082-4dea-b845-140b4a1aa00b" />
     <img width="200"alt="5" src="https://github.com/user-attachments/assets/e9672c94-efea-416b-a3db-2b5646ef5717" />
     <img width="200"  alt="6" src="https://github.com/user-attachments/assets/cdda884c-a79e-400d-8412-39076edcb78e" />
-    <img width="200"  alt="7" src="https://github.com/user-attachments/assets/7c586b11-104f-497a-97ae-f78c68765afa" />
+  </p>
+    <p align="center">     
+      <img width="200"  alt="7" src="https://github.com/user-attachments/assets/7c586b11-104f-497a-97ae-f78c68765afa" />
     <img width="200"  alt="8" src="https://github.com/user-attachments/assets/5a5b2a90-6118-4473-bde2-37ca915cb2c1" />
    <img width="200" alt="9" src="https://github.com/user-attachments/assets/2f0fc1ec-7c01-4e01-862a-b1fbb58f45f5" />
-   <img width="200"  alt="10" src="https://github.com/user-attachments/assets/189f3fbc-9b9f-4fb9-abd9-ffda21f5a326" />
-<img width="200" alt="11" src="https://github.com/user-attachments/assets/389b2912-ff8f-4d17-a390-94bfafd534cf" />
   </p>
