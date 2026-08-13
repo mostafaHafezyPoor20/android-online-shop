@@ -86,3 +86,27 @@ Android Client -- http Request --> PHP Backend --Wait for new message -->New mes
 Android Application ----> Retrofit ----> REST API ----> Pure PHP ----> MySQL
 
 for the chat functionality , Long Polling is used to provide near real-time message updates between the Android application and the PHP backend
+
+
+## Technical Highlights
+
+### MVVM Architecture
+The Android application follows the MVVM architecture to separate UI components from application and data logic , making the codebase easier to maintain and extend
+
+### REST API Communication 
+The application communicates with the PHP backend through REST APIs.Retrofit is used to handle HTTP requests and APIs responses.
+
+### Long Polling Chat 
+A near real-time chat system was implemented using Long Polling . The Android Client maintains an HTTTP request while waiting for new messages and sends a new request after receiving a response.
+
+### Client-Server Architecture
+The project consists of an Android client , a Pure PHP backend , and a MySQL database.The Android application communicates with the backend through HTTP-based APIs
+
+### Firebase Cloud Messaging
+firebase cloud Messaging (FCM) is used to send push notifications to users , allowing the application to notify users about relevant events even when the application is not actively open.
+
+### Image Loading
+Picasso is used for loading and displaying product and user images efficiently within the Android application
+
+### Loading & User Experience
+Shimmer placeholders and Lottie animations are used to provide visual feedback while content is loading and to improve the overall user experience
