@@ -10,6 +10,11 @@ MySQL is used as the database on the server side.
 The project also integrates several Android and third-part technologies to provide a smoother and more modern user experience,including Retrofit , Picasso , Firebase,Lottie,Shimmer,BlurView and CircleImageView
 
 
+
+## Download APK
+** Android APK ** Download the latest release and try the application
+[Download Shik Shop APK](app-release.apk)
+
 ## Features 
 1. User registration and authentication
 2. Browse childern's clothing products 
